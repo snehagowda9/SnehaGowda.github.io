@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+}
+/* we are sletting a font style for sidebar from google fonts  */
+.sidebar{
+    background-color: red;
+    width: 10vw;
+    height: 100vh;
+    font-family: 'Sono', sans-serif;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size : 30px;
+    padding: 33px 0;
+}
+
+.main {
+    background-color: yellow;
+    width: 90vw;
+}
+
+.container {
+    display:flex;
+}
+
+.infoContainer{
+    background-color: blue;
+    height: 97vh;
+    width: 80vw;
+    margin: 223px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.devpics img{
+width :250px;
+
+}
